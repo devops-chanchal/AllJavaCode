@@ -4,6 +4,8 @@ public class Switch1 {
 static int age;
 	public static void main(String[] args) {
 		age=10;
+		System.out.println("Modified this file in new branch");
+		System.out.println("Added one more syso as per your comment");
 		switch (age) {
 		case 10:
 			System.out.println("my age is "+age);
